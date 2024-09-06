@@ -1,0 +1,84 @@
+<!-- app/templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Text Extraction</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="mt-5">Image Text Extraction</h1>
+
+        {% if message %}
+        <div class="alert alert-success mt-3" role="alert">
+            {{ message }}
+        </div>
+        {% endif %}
+
+        <form method="post" enctype="multipart/form-data" class="mt-4">
+            <div class="custom-file">
+                <input type="file" class="custom-file-input" id="customFile" name="files" accept=".png, .jpg, .jpeg" multiple
+                    required>
+                <label class="custom-file-label" for="customFile">Choose multiple images</label>
+            </div>
+            <div class="form-check mt-3">
+                <input class="form-check-input" type="checkbox" name="appendText" id="appendText">
+                <label class="form-check-label" for="appendText">
+                    Append text to existing
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Extract Text</button>
+        </form>
+
+        {% if extracted_text %}
+        <div class="mt-4">
+            <h4>Extracted Text</h4>
+            <div class="input-group">
+                <textarea id="extractedText" class="form-control" rows="5" readonly>{{ extracted_text }}</textarea>
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="copyButton"
+                        data-clipboard-target="#extractedText" data-toggle="tooltip" data-placement="top" title="Copy">
+                        Copy
+                    </button>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Initialize Clipboard.js
+        var clipboard = new ClipboardJS('#copyButton');
+
+        // Show tooltip on copy success
+        clipboard.on('success', function (e) {
+            e.clearSelection();
+            var tooltip = $('[data-toggle="tooltip"]');
+            tooltip.tooltip('dispose').attr('data-original-title', 'Copied!').tooltip('show');
+            setTimeout(function () {
+                tooltip.tooltip('dispose').attr('data-original-title', 'Copy').tooltip();
+            }, 1000);
+        });
+
+        // Hide tooltip on copy error
+        clipboard.on('error', function (e) {
+            var tooltip = $('[data-toggle="tooltip"]');
+            tooltip.tooltip('dispose').attr('data-original-title', 'Press Ctrl+C to copy').tooltip('show');
+            setTimeout(function () {
+                tooltip.tooltip('dispose').attr('data-original-title', 'Copy').tooltip();
+            }, 1000);
+        });
+    </script>
+</body>
+
+</html>

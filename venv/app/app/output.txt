@@ -1,0 +1,2014 @@
+Text from s.jpg:
+# Icons
+iconsax: 46.0.8
+cupertino_icons: *1.0.2
+
+# State Management
+get: *4.6.5
+
+# Product Specific
+
+-/ PACKAGES END -
+
+dev_dependencies:
+flutter_test:
+sdk: flutter
+
+flutter_lints: *2.0.0
+
+flutter:
+uses-material-design: true
+
+ona 22 - === = === LOCAL ASSETS ----
+assets:
+
+- assets/Logos/
+@ ~ assets/icons/brands/
+
+- assets/images/
+
+fonts:
+
+- family: Poppins
+fonts:
+
+- asset: assets/fonts/Poppins-Light.ttf
+weight: 300
+
+- asset: assets/fonts/Poppins-Regular. ttf
+
+
+Text from k.jpg:
+import ï¿½package: flutter/material.dart';
+
+/// -- Light & Dark Elevated Button Themes
+class TElevatedButtonTheme {
+TElevatedButtonTheme._(); //To avoid creating instances
+
+/// -- Light Theme
+static final LightElevatedButtonTheme = ElevatedButtonThemeData(
+style: ElevatedButton. styleFrom(
+elevation: 0,
+foregroundColor: Colors.white,
+backgroundColor: Colors.blue
+disabledForegroundColor: Colors.grey,
+disabledBackgroundColor: Colors.grey,
+side: const BorderSide(color: Colors.biue,
+padding: const EdgeInsets.symmetric(vertical: 18),
+textStyle: const TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.w690) ,
+shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+Me
+); // ElevatedButtonThemeData
+
+
+Text from Screenshot_2024-02-04-21-20-18-83_99c04817c0de5652397fc8b56c3b3817.jpg:
+Elevat
+
+styleFrom
+
+
+
+Text from Screenshot 2023-05-11 163458.png:
+import cv2
+import numpy as np
+
+import os
+
+from playsound import playsound
+
+recognizer = cv2.face.LBPHFaceRecognizer_create()
+recognizer.read(ï¿½trainer/trainer.yml')
+
+cascadePath = ï¿½haarcascade_frontalface_default.xml"
+faceCascade = cv2.CascadeClassifier(cascadePath) ;
+
+font = cv2.FONT_HERSHEY_ TRIPLEX
+
+#iniciate id counter
+
+id=0
+
+names = [0, 1, 2, 3, ï¿½Z', ï¿½W']
+
+# Initialize and start realtime video capture
+cam = cv2.Videocapture(0)
+
+cam.set(3, 640) # set video widht
+
+cam.set(4, 480) # set video height
+
+# Define min window size to be recognized as a face
+minW = @.1*cam.get (3)
+
+minH = @.1*cam.get(4)
+
+while True:
+
+ret, img =cam.read()
+
+gray = cv2.cvtColor (img, cv2.COLOR_BGR2GRAY)
+
+faces = faceCascade.detectmultiscale(
+gray,
+scaleFactor = 1.2,
+minNeighbors = 5,
+
+
+
+Text from Screenshot 2023-05-11 163458.png:
+import cv2
+import numpy as np
+
+import os
+
+from playsound import playsound
+
+recognizer = cv2.face.LBPHFaceRecognizer_create()
+recognizer.read(ï¿½trainer/trainer.yml')
+
+cascadePath = ï¿½haarcascade_frontalface_default.xml"
+faceCascade = cv2.CascadeClassifier(cascadePath) ;
+
+font = cv2.FONT_HERSHEY_ TRIPLEX
+
+#iniciate id counter
+
+id=0
+
+names = [0, 1, 2, 3, ï¿½Z', ï¿½W']
+
+# Initialize and start realtime video capture
+cam = cv2.Videocapture(0)
+
+cam.set(3, 640) # set video widht
+
+cam.set(4, 480) # set video height
+
+# Define min window size to be recognized as a face
+minW = @.1*cam.get (3)
+
+minH = @.1*cam.get(4)
+
+while True:
+
+ret, img =cam.read()
+
+gray = cv2.cvtColor (img, cv2.COLOR_BGR2GRAY)
+
+faces = faceCascade.detectmultiscale(
+gray,
+scaleFactor = 1.2,
+minNeighbors = 5,
+
+
+
+Text from k.jpg:
+import ï¿½package: flutter/material.dart';
+
+/// -- Light & Dark Elevated Button Themes
+class TElevatedButtonTheme {
+TElevatedButtonTheme._(); //To avoid creating instances
+
+/// -- Light Theme
+static final LightElevatedButtonTheme = ElevatedButtonThemeData(
+style: ElevatedButton. styleFrom(
+elevation: 0,
+foregroundColor: Colors.white,
+backgroundColor: Colors.blue
+disabledForegroundColor: Colors.grey,
+disabledBackgroundColor: Colors.grey,
+side: const BorderSide(color: Colors.biue,
+padding: const EdgeInsets.symmetric(vertical: 18),
+textStyle: const TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.w690) ,
+shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+Me
+); // ElevatedButtonThemeData
+
+
+
+Text from s.jpg:
+# Icons
+iconsax: 46.0.8
+cupertino_icons: *1.0.2
+
+# State Management
+get: *4.6.5
+
+# Product Specific
+
+-/ PACKAGES END -
+
+dev_dependencies:
+flutter_test:
+sdk: flutter
+
+flutter_lints: *2.0.0
+
+flutter:
+uses-material-design: true
+
+ona 22 - === = === LOCAL ASSETS ----
+assets:
+
+- assets/Logos/
+@ ~ assets/icons/brands/
+
+- assets/images/
+
+fonts:
+
+- family: Poppins
+fonts:
+
+- asset: assets/fonts/Poppins-Light.ttf
+weight: 300
+
+- asset: assets/fonts/Poppins-Regular. ttf
+
+
+
+Text from s.jpg:
+# Icons
+iconsax: 46.0.8
+cupertino_icons: *1.0.2
+
+# State Management
+get: *4.6.5
+
+# Product Specific
+
+-/ PACKAGES END -
+
+dev_dependencies:
+flutter_test:
+sdk: flutter
+
+flutter_lints: *2.0.0
+
+flutter:
+uses-material-design: true
+
+ona 22 - === = === LOCAL ASSETS ----
+assets:
+
+- assets/Logos/
+@ ~ assets/icons/brands/
+
+- assets/images/
+
+fonts:
+
+- family: Poppins
+fonts:
+
+- asset: assets/fonts/Poppins-Light.ttf
+weight: 300
+
+- asset: assets/fonts/Poppins-Regular. ttf
+
+
+
+Text from Screenshot 2023-05-11 163322.png:
+enter face id and click enter1
+<built-in method read of cv2.VideoCapture object at @x@0000203DCF98530>
+
+[INFO] Initializing face captute
+
+[INFO] Exiting Program
+
+
+
+Text from Screenshot 2023-05-11 163151.png:
+import cv2
+import os
+
+cam = cv2.VideoCapture (0)
+cam.set(3, 640)
+cam.set(4, 480)
+
+face_detector = cv2.CascadeClassifier(ï¿½haarcascade_frontalface_default.xml')
+face_id=input(ï¿½\n enter face id and click enterï¿½)
+print (cam.read)
+
+print("\n [INFO] Initializing face captute")
+
+count = @
+while(True):
+ret , img = cam.read()
+gray=cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+faces = face_detector.detectmultiscale(gray,1.3,5)
+- for (xsy,w,h) in faces:
+cv2.rectangle(img, (x,y), (x#w,y+h) ,(255,0,0) ,2)
+count+=1
+cv2. imurite(ï¿½dataset/user. "ï¿½+str(face_id)+'.'+str(count) +
+cv2. imshow(' image" , img)
+
+-ipg", grayly:y+h,x:x+w])
+
+k = cv2.waitkey(100)& oxff
+- if k==27:
+
+break
+- elif count>=30:
+
+break
+
+print("\n[INFO] Exiting Program")
+
+
+
+Text from k.jpg:
+import ï¿½package: flutter/material.dart';
+
+/// -- Light & Dark Elevated Button Themes
+class TElevatedButtonTheme {
+TElevatedButtonTheme._(); //To avoid creating instances
+
+/// -- Light Theme
+static final LightElevatedButtonTheme = ElevatedButtonThemeData(
+style: ElevatedButton. styleFrom(
+elevation: 0,
+foregroundColor: Colors.white,
+backgroundColor: Colors.blue
+disabledForegroundColor: Colors.grey,
+disabledBackgroundColor: Colors.grey,
+side: const BorderSide(color: Colors.biue,
+padding: const EdgeInsets.symmetric(vertical: 18),
+textStyle: const TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.w690) ,
+shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+Me
+); // ElevatedButtonThemeData
+
+
+
+Text from k.jpg:
+import ï¿½package: flutter/material.dart';
+
+/// -- Light & Dark Elevated Button Themes
+class TElevatedButtonTheme {
+TElevatedButtonTheme._(); //To avoid creating instances
+
+/// -- Light Theme
+static final LightElevatedButtonTheme = ElevatedButtonThemeData(
+style: ElevatedButton. styleFrom(
+elevation: 0,
+foregroundColor: Colors.white,
+backgroundColor: Colors.blue
+disabledForegroundColor: Colors.grey,
+disabledBackgroundColor: Colors.grey,
+side: const BorderSide(color: Colors.biue,
+padding: const EdgeInsets.symmetric(vertical: 18),
+textStyle: const TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.w690) ,
+shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+Me
+); // ElevatedButtonThemeData
+
+
+
+Text from k.jpg:
+import ï¿½package: flutter/material.dart';
+
+/// -- Light & Dark Elevated Button Themes
+class TElevatedButtonTheme {
+TElevatedButtonTheme._(); //To avoid creating instances
+
+/// -- Light Theme
+static final LightElevatedButtonTheme = ElevatedButtonThemeData(
+style: ElevatedButton. styleFrom(
+elevation: 0,
+foregroundColor: Colors.white,
+backgroundColor: Colors.blue
+disabledForegroundColor: Colors.grey,
+disabledBackgroundColor: Colors.grey,
+side: const BorderSide(color: Colors.biue,
+padding: const EdgeInsets.symmetric(vertical: 18),
+textStyle: const TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.w690) ,
+shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+Me
+); // ElevatedButtonThemeData
+
+
+
+Text from k.jpg:
+import ï¿½package: flutter/material.dart';
+
+/// -- Light & Dark Elevated Button Themes
+class TElevatedButtonTheme {
+TElevatedButtonTheme._(); //To avoid creating instances
+
+/// -- Light Theme
+static final LightElevatedButtonTheme = ElevatedButtonThemeData(
+style: ElevatedButton. styleFrom(
+elevation: 0,
+foregroundColor: Colors.white,
+backgroundColor: Colors.blue
+disabledForegroundColor: Colors.grey,
+disabledBackgroundColor: Colors.grey,
+side: const BorderSide(color: Colors.biue,
+padding: const EdgeInsets.symmetric(vertical: 18),
+textStyle: const TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.w690) ,
+shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+Me
+); // ElevatedButtonThemeData
+
+
+
+Text from s.jpg:
+# Icons
+iconsax: 46.0.8
+cupertino_icons: *1.0.2
+
+# State Management
+get: *4.6.5
+
+# Product Specific
+
+-/ PACKAGES END -
+
+dev_dependencies:
+flutter_test:
+sdk: flutter
+
+flutter_lints: *2.0.0
+
+flutter:
+uses-material-design: true
+
+ona 22 - === = === LOCAL ASSETS ----
+assets:
+
+- assets/Logos/
+@ ~ assets/icons/brands/
+
+- assets/images/
+
+fonts:
+
+- family: Poppins
+fonts:
+
+- asset: assets/fonts/Poppins-Light.ttf
+weight: 300
+
+- asset: assets/fonts/Poppins-Regular. ttf
+
+
+
+Text from Screenshot_2024-02-04-21-20-18-83_99c04817c0de5652397fc8b56c3b3817.jpg:
+Elevat
+
+styleFrom
+
+
+
+
+Text from k.jpg:
+import ï¿½package: flutter/material.dart';
+
+/// -- Light & Dark Elevated Button Themes
+class TElevatedButtonTheme {
+TElevatedButtonTheme._(); //To avoid creating instances
+
+/// -- Light Theme
+static final LightElevatedButtonTheme = ElevatedButtonThemeData(
+style: ElevatedButton. styleFrom(
+elevation: 0,
+foregroundColor: Colors.white,
+backgroundColor: Colors.blue
+disabledForegroundColor: Colors.grey,
+disabledBackgroundColor: Colors.grey,
+side: const BorderSide(color: Colors.biue,
+padding: const EdgeInsets.symmetric(vertical: 18),
+textStyle: const TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.w690) ,
+shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+Me
+); // ElevatedButtonThemeData
+
+
+
+Text from s.jpg:
+# Icons
+iconsax: 46.0.8
+cupertino_icons: *1.0.2
+
+# State Management
+get: *4.6.5
+
+# Product Specific
+
+-/ PACKAGES END -
+
+dev_dependencies:
+flutter_test:
+sdk: flutter
+
+flutter_lints: *2.0.0
+
+flutter:
+uses-material-design: true
+
+ona 22 - === = === LOCAL ASSETS ----
+assets:
+
+- assets/Logos/
+@ ~ assets/icons/brands/
+
+- assets/images/
+
+fonts:
+
+- family: Poppins
+fonts:
+
+- asset: assets/fonts/Poppins-Light.ttf
+weight: 300
+
+- asset: assets/fonts/Poppins-Regular. ttf
+
+
+
+Text from Screenshot_2024-02-04-21-20-18-83_99c04817c0de5652397fc8b56c3b3817.jpg:
+Elevat
+
+styleFrom
+
+
+
+
+1. Text from Screenshot 2023-05-11 163458.png:
+import cv2
+import numpy as np
+
+import os
+
+from playsound import playsound
+
+recognizer = cv2.face.LBPHFaceRecognizer_create()
+recognizer.read(ï¿½trainer/trainer.yml')
+
+cascadePath = ï¿½haarcascade_frontalface_default.xml"
+faceCascade = cv2.CascadeClassifier(cascadePath) ;
+
+font = cv2.FONT_HERSHEY_ TRIPLEX
+
+#iniciate id counter
+
+id=0
+
+names = [0, 1, 2, 3, ï¿½Z', ï¿½W']
+
+# Initialize and start realtime video capture
+cam = cv2.Videocapture(0)
+
+cam.set(3, 640) # set video widht
+
+cam.set(4, 480) # set video height
+
+# Define min window size to be recognized as a face
+minW = @.1*cam.get (3)
+
+minH = @.1*cam.get(4)
+
+while True:
+
+ret, img =cam.read()
+
+gray = cv2.cvtColor (img, cv2.COLOR_BGR2GRAY)
+
+faces = faceCascade.detectmultiscale(
+gray,
+scaleFactor = 1.2,
+minNeighbors = 5,
+
+
+
+1. Text from s.jpg:
+# Icons
+iconsax: 46.0.8
+cupertino_icons: *1.0.2
+
+# State Management
+get: *4.6.5
+
+# Product Specific
+
+-/ PACKAGES END -
+
+dev_dependencies:
+flutter_test:
+sdk: flutter
+
+flutter_lints: *2.0.0
+
+flutter:
+uses-material-design: true
+
+ona 22 - === = === LOCAL ASSETS ----
+assets:
+
+- assets/Logos/
+@ ~ assets/icons/brands/
+
+- assets/images/
+
+fonts:
+
+- family: Poppins
+fonts:
+
+- asset: assets/fonts/Poppins-Light.ttf
+weight: 300
+
+- asset: assets/fonts/Poppins-Regular. ttf
+
+
+
+1. Text from k.jpg:
+import ï¿½package: flutter/material.dart';
+
+/// -- Light & Dark Elevated Button Themes
+class TElevatedButtonTheme {
+TElevatedButtonTheme._(); //To avoid creating instances
+
+/// -- Light Theme
+static final LightElevatedButtonTheme = ElevatedButtonThemeData(
+style: ElevatedButton. styleFrom(
+elevation: 0,
+foregroundColor: Colors.white,
+backgroundColor: Colors.blue
+disabledForegroundColor: Colors.grey,
+disabledBackgroundColor: Colors.grey,
+side: const BorderSide(color: Colors.biue,
+padding: const EdgeInsets.symmetric(vertical: 18),
+textStyle: const TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.w690) ,
+shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+Me
+); // ElevatedButtonThemeData
+
+
+
+1. Text from k.jpg:
+import ï¿½package: flutter/material.dart';
+
+/// -- Light & Dark Elevated Button Themes
+class TElevatedButtonTheme {
+TElevatedButtonTheme._(); //To avoid creating instances
+
+/// -- Light Theme
+static final LightElevatedButtonTheme = ElevatedButtonThemeData(
+style: ElevatedButton. styleFrom(
+elevation: 0,
+foregroundColor: Colors.white,
+backgroundColor: Colors.blue
+disabledForegroundColor: Colors.grey,
+disabledBackgroundColor: Colors.grey,
+side: const BorderSide(color: Colors.biue,
+padding: const EdgeInsets.symmetric(vertical: 18),
+textStyle: const TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.w690) ,
+shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+Me
+); // ElevatedButtonThemeData
+
+
+
+1. Text from Screenshot_2024-02-04-21-22-25-67_99c04817c0de5652397fc8b56c3b3817.jpg:
+21:22 ZO & ï¿½ 8 a al al
+
+Today ay
+20:39 \e
+
+ï¿½ï¿½ Vv ? wy ;
+
+Send Favourite Edit Delete More
+
+
+
+
+1. Text from Screenshot_2024-02-04-21-20-55-35_99c04817c0de5652397fc8b56c3b3817.jpg:
+).dart
+
+21:20 ZO # ï¿½ 8 ee Tl wl Gs
+
+Today en
+20:40
+
+i theme.dart #%& appbar_theme.dart i bottom_sheet_theme.dart mec
+
+import ï¿½package: flutter/material.dart' ;
+
+e
+
+class TChipTheme {
+TChipTheme._();
+
+static ChipThemeData LightChipTheme = ChipThemeData(
+
+dj
+
+disabledColor: Colors.grey.withOpacity(0.4),
+labelstyle: const TextStyle(color: Colors.black),
+selectedColor: Colors.blue,
+padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 12),
+checkmarkColor: Colors.white,
+// ChipThemeData
+
+static ChipThemeData darkChipTheme = const ChipThemeData(
+
+DF
+
+disabledColor: Colors.grey,
+labelStyle: TextStyle(color: Colors.white),
+selectedColor: Colors.blue,
+padding: EdgeInsets.symmetric(horizontal: 12.0, vertical: 12),
+checkmarkColor: Colors.white,
+// ChipThemeData
+
+ï¿½ Vv, ? wy
+
+Send Favourite Edit Delete More
+
+
+
+
+1. Text from Screenshot_2024-02-06-02-16-02-87_99c04817c0de5652397fc8b56c3b3817.jpg:
+titleSmall: const TextStyle().copyWith(fontSize: 16.0, fontWeight: FontWeight.w400, color: Colors.black),
+
+bodyLarge: const TextStyle().copyWith(fontSize: 14.9, fontWeight: FontWeight.w500, color: Colors.black),
+bodyMedium: const TextStyle().copyWith(fontSize: 14.9, fontWeight: FontWeight.normal, color: Colors.black),
+bodySmall: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.w500, color: Colors.black.withOpacity(0.5)),
+
+labelLarge: const TextStyle().copyWith(fontSize: 12.9, fontWeight: FontWeight.normal, color: Colors.black),
+LabelMedium: const TextStyle().copyWith(fontSize: 12.90, fontWeight: FontWeight.normal, color: Colors.black.withOpacity(0.
+); // TextTheme
+
+/// Customizable Dark Text Theme
+
+static TextTheme darkTextTheme = TextTheme(
+headlineLarge: const TextStyle().copyWith(fontSize: 32.9, fontWeight: FontWeight.bold, color: Colors.white),
+headlineMedium: const TextStyle().copyWith(fontSize: 24.0, fontWeight: FontWeight.w600, color: Colors.white),
+headlineSmall: const TextStyle().copyWith(fontSize: 18.0, fontWeight: FontWeight.w609, color: Colors.white),
+
+titleLarge: const TextStyle().copyWith(fontSize: 16.0, fontWeight: FontWeight.w699, color: Colors.white),
+titleMedium: const TextStyle().copyWith(fontSize: 16.9, fontWeight: FontWeight.w590, color: Colors.white),
+titleSmall: const TextStyle().copyWith(fontSize: 16.0, fontWeight: FontWeight.w4@9, color: Colors.white),
+
+
+
+1. Text from Screenshot_2024-02-07-21-30-03-25_99c04817c0de5652397fc8b56c3b3817.jpg:
+Ee A ne mobo ee a ee nen. ae
+
+ee ee ee ee a ae
+
+a ee ee ea Ea ee ee, ee ey ee eg ee ey eee ee Se ee cee ae
+
+titleMedium: const TextStyle().copyWith(fontSize: 16.9, fontWeight: FontWeight.w50G, color: Colors.white),
+titleSmall: const TextStyle().copyWith(fontSize: 16.9, fontWeight: FontWeight.w400, color: Colors.white),
+
+bodyLarge: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.w59@, color: Colors.white),
+bodyMedium: const TextStyle().copyWith(fontSize: 14.0, fontWeight: FontWeight.normal, color: Colors.white),
+bodySmall: const TextStyle().copyWith(fontSize: 14.4), fontWeight: FontWeight.w509, color: Colors.white.withOpacity(9.5)),
+
+labelLarge: const TextStyle().copyWith(fontSize: 12.0, fontWeight: FontWeight.normal, color: Colors.white),
+labelMedium: const TextStyle().copyWith(fontSize: 12.0, fontWeight: FontWeight.normal, color: Colors.white.withOpacity(0.5)),
+
+; // TextTheme
+
+
+
+1. Text from Screenshot_2024-02-07-21-37-56-80_99c04817c0de5652397fc8b56c3b3817.jpg:
+Vï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½\ï¿½_]W]_|_ï¿½_ï¿½_ï¿½_ï¿½_ï¿½_ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½
+import 'package:flutter/material.dart';
+
+class TAppBarTheme{
+TAppBarTheme._();
+
+static const LightAppBarTheme = AppBarTheme(
+
+elevation: 0,
+
+centerTitle: false,
+
+serotledunderEtevation: 6]
+
+backgroundColor: Colors.transparent,
+
+surfaceTintColor: Colors.transparent,
+
+iconTheme: IconThemeData(color: Colors.black, size: 24),
+
+actionsIconTheme: IconThemeData(color: Colors.black, size: 24),
+
+titleTextStyle: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600, color: Colors.black),
+); // AppBarTheme
+static const darkAppBarTheme = AppBarTheme(
+
+elevation: 9,
+
+centerTitle: false,
+
+scrolledUnderElevation: 0,
+
+backgroundColor: Colors.transparent,
+
+surfaceTintColor: Colors.transparent,
+
+iconTheme: IconThemeData(color: Colors.black, size: 24),
+
+actionsIconTheme: IconThemeData(color: Colors.white, size: 24),
+
+titleTextStyle: TextStyle(fontSize: 18.9, fontWeight: FontWeight.wï¿½600, color: Colors.white),
+); // AppBarTheme
+
+
+
+1. Text from Screenshot_2024-02-07-21-45-00-22_99c04817c0de5652397fc8b56c3b3817.jpg:
+
+
+
+1. Text from Screenshot_2024-02-07-21-45-00-22_99c04817c0de5652397fc8b56c3b3817.jpg:
+
+
+
+1. Text from Screenshot_2024-02-07-21-45-00-22_99c04817c0de5652397fc8b56c3b3817.jpg:
+
+
+
+1. Text from Screenshot_2024-02-07-21-45-00-22_99c04817c0de5652397fc8b56c3b3817.jpg:
+
+
+
+1. Text from Screenshot_2024-02-07-21-45-00-22_99c04817c0de5652397fc8b56c3b3817.jpg:
+
+
+
+1. Text from Screenshot_2024-02-07-21-37-56-80_99c04817c0de5652397fc8b56c3b3817.jpg:
+Vï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½Xï¿½\ï¿½_]W]_|_ï¿½_ï¿½_ï¿½_ï¿½_ï¿½_ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½
+import 'package:flutter/material.dart';
+
+class TAppBarTheme{
+TAppBarTheme._();
+
+static const LightAppBarTheme = AppBarTheme(
+
+elevation: 0,
+
+centerTitle: false,
+
+serotledunderEtevation: 6]
+
+backgroundColor: Colors.transparent,
+
+surfaceTintColor: Colors.transparent,
+
+iconTheme: IconThemeData(color: Colors.black, size: 24),
+
+actionsIconTheme: IconThemeData(color: Colors.black, size: 24),
+
+titleTextStyle: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600, color: Colors.black),
+); // AppBarTheme
+static const darkAppBarTheme = AppBarTheme(
+
+elevation: 9,
+
+centerTitle: false,
+
+scrolledUnderElevation: 0,
+
+backgroundColor: Colors.transparent,
+
+surfaceTintColor: Colors.transparent,
+
+iconTheme: IconThemeData(color: Colors.black, size: 24),
+
+actionsIconTheme: IconThemeData(color: Colors.white, size: 24),
+
+titleTextStyle: TextStyle(fontSize: 18.9, fontWeight: FontWeight.wï¿½600, color: Colors.white),
+); // AppBarTheme
+
+
+
+1. Text from Screenshot_2024-02-07-21-46-57-79_99c04817c0de5652397fc8b56c3b3817.jpg:
+import 'package:flutter/material.dart';
+
+class TBottomSheetTheme {
+TBottomSheetTheme._();
+
+static BottomSheetThemeData LightBottomSheetTheme = BottomSheetThemeData(
+shpwOragHandle: true,
+backgrou idColor: Colors.white,
+modalBackgroundColor: Colors.white,
+constraints: const BoxConstraints(minWidth: double.infinity),
+shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+); // BottomSheetThemeData
+
+static BottomSheetThemeData darkBottomSheetTheme = BottomSheetThemeData(
+showDragHandle: true,
+backgroundColor: Colors.black,
+modalBackgroundColor: Colors.black,
+constraints: const BoxConstraints(minWidth: double.infinity),
+shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+); // BottomSheetThemeData
+
+}
+
+1. Text from Screenshot_2024-02-07-21-50-39-14_99c04817c0de5652397fc8b56c3b3817.jpg:
+1.dart i theme.dart ï¿½ appbar_theme.dart i bottom_sheet_theme.dart Fc
+
+import 'package:flutter/material.dart';
+
+/// Custom Class for Light & Dark Text Themes
+class TCheckboxTheme {
+TCheckboxTheme._(); // To avoid creating instances
+
+/// Customizable Light Text Theme
+static CheckboxThemeData LightCheckboxTheme = CheckboxThemeData(
+e shapd: RoundedRec*:angleBorder(borderRadius: BorderRadius.circular(4)),
+checkColor: MaterialStateProperty.resolveWith((states) {
+if (states.contains(MaterialState.selected)) {
+return Colors.white;
+} else {
+return Colors.bLlack;
+}
+Lap
+fillColor: MaterialStateProperty.resolveWith((states) {
+if (states.contains(MaterialState.selected)) {
+return Colors.blue;
+} else {
+return Colors. transparent;
+}
+ae
+); // CheckboxThemeData
+
+/// Customizable Dark Text Theme
+static CheckboxThemeData darkCheckboxTheme = CheckboxThemeData(
+shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
+checkColor: MaterialStateProperty.resolveWith((states) {
+if (states.contains(MaterialState.selected)) {
+return Colors.white;
+} else {
+return Colors.black;
+f
+Fe
+fillColor: MaterialStateProperty.resolveWith((states) {
+if (states.contains(MaterialState.selected)) {
+
+petinn falare Alie:
+
+
+
+1. Text from Screenshot_2024-02-07-21-53-10-85_99c04817c0de5652397fc8b56c3b3817.jpg:
+import 'package:flutter/material.dart';
+
+/// Custom Class for Light & Dark Text Themes
+class TCheckboxTheme {
+TCheckboxTheme._(); // To avoid creating instances
+
+/// Customizable Light Text Theme
+static CheckboxThemeData LightCheckboxTheme = CheckboxThemeData(
+e shapd: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
+checkColor: MaterialStateProperty.resolveWith((states) {
+if (states.contains(MaterialState.selected)) {
+return Colors.white;
+} else {
+return Colors.black;
+}
+oy
+fillColor: MaterialStateProperty.resolveWith((states) {
+if (states.contains(MaterialState.selected)) {
+return Colors.blue;
+} else {
+
+
+
+1. Text from Screenshot_2024-02-07-21-53-29-10_99c04817c0de5652397fc8b56c3b3817.jpg:
+ofr
+
+fillColor: MaterialStateProperty.resolveWith((states) {
+if (states.contains(MaterialState.selected)) {
+return Colors.blue;
+} else {
+return Colors.transparent;
+}
+
+}),
+); // CheckboxThemeData
+
+i
+/// Customizable Dark Text Theme
+static CheckboxThemeData darkCheckboxTheme = CheckboxThemeData(
+shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
+checkColor: MaterialStateProperty.resolveWith((states) {
+if (states.contains(MaterialState.selected)) {
+return Colors.white;
+} else {
+return Colors.black;
+}
+
+Bs
+fillColor: MaterialStateProperty.resolveWith((states) {
+
+if (states.contains(MaterialState.selected)) {
+
+
+
+1. Text from Screenshot_2024-02-07-21-54-16-91_99c04817c0de5652397fc8b56c3b3817.jpg:
+/// Customizable Dark Text Theme
+static CheckboxThemeData darkCheckboxTheme = CheckboxThemeData(
+shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
+checkColor: MaterialStateProperty.resolveWith((states) {
+if (states.contains(MaterialState.selected)) {
+return Colors.white;
+} else {
+return Colors.black;
+}
+
++);
+fillColor: MaterialStateProperty.resolveWith((states) {
+
+if (states.contains(MaterialState.selected)) {
+return Colors.blue;
+
+} else {
+return Colors. transparent;
+
+}
+
+}),
+); // CheckboxThemeData
+
+
+
+1. Text from Screenshot_2024-02-07-22-03-20-42_99c04817c0de5652397fc8b56c3b3817.jpg:
+import ï¿½package: flutter/material. dartï¿½ ;
+e
+
+class TChipTheme {
+TChipTheme._();
+
+static ChipThemeData LightChipTheme = ChipThemeData(
+disabledColor: Colors.grey.withOpacity(0.4),
+labelStyle: const TextStyle(color: Colors.black),
+selectedColor: Colors.blue,
+padding: const EdgeInsets.symmetric(horizontal: 12.9, vertical: 12),
+checkmarkColor: Colors.white,
+); // ChipThemeData
+
+static ChipThemeData darkChipTheme = const ChipThemeData(
+disabledColor: Colors.grey,
+labelStyle: TextStyle(color: Colors.white),
+selectedColor: Colors.blue,
+padding: EdgeInsets.symmetric(horizontal: 12.0, vertical: 12),
+checkmarkColor: Colors.white,
+
+); // ChipThemeData
+
+
+
+1. Text from Screenshot_2024-02-07-22-06-05-97_99c04817c0de5652397fc8b56c3b3817.jpg:
+UF
+); // ElevatedButtonThemeData
+
+/// -- Dark Theme
+static final darkElevatedButtonTheme = ElevatedButtonThemeData(
+style: ElevatedButton.styleFrom(
+elevation: 0,
+foregroundColor: Colors.white,
+backgroundColor: Colors.blue,
+disabledForegroundColor: Colors.grey,
+disabledBackgroundColor: Colors.grey,
+side: const BorderSide(color: Colors.blue),
+padding: const EdgeInsets.symmetric(vertical: 18),
+textStyle: const TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.w600),
+shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+ie
+); // ElevatedButtonThemeData
+
+
+
+2. Text from Screenshot_2024-02-07-22-05-50-44_99c04817c0de5652397fc8b56c3b3817.jpg:
+=
+=
+:
+=
+=
+=
+=
+aq
+se
+K-)
+s
+
+20:45
+
+[Se a eae SS.) le
+
+e:flutter/material.dart';
+
+Dark Elevated Button Themes
+dButtonTheme {
+tonTheme._(); //To avoid creating instances
+
+Theme
+
+LightElevatedButtonTheme = ElevatedButtonThemeData(
+vatedButton. styleFrom(
+
+n: 0,
+
+ndColor: Colors.white,
+
+ndColor: Colors.blue,
+
+ForegroundColor: Colors.grey,
+
+BackgroundColor: Colors.grey,
+
+nst BorderSide(color: Colors.bluep,
+
+const EdgeInsets.symmetric(vertical: 18),
+
+e: const TextStyle(fontSize: 16, color: Colors.white, fontWeight:
+oundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+
+tedButtonThemeData
+
+FontWeight.w6a0) ,
+
+Favourite Edit Delete More
+
+Send
+
+
+
+1. Text from Screenshot_2024-02-07-22-07-28-27_99c04817c0de5652397fc8b56c3b3817.jpg:
+import ï¿½package: flutter/material.dart';
+
+/// -- Light & Dark Elevated Button Themes
+class TElevatedButtonTheme {
+TElLevatedButtonTheme._(); //To avoid creating instances
+
+/// -- Light Theme
+static final LightElevatedButtonTheme = ElevatedButtonThemeData(
+style: ElevatedButton.styleFrom(
+
+elevation: 0,
+foregroundColor: Colors.white,
+backgroundColor: Colors.blue,
+disabledForegroundColor: Colors.grey,
+disabledBackgroundColor: Colors.grey,
+side: const BorderSide(color: Colors. blue,
+padding: const EdgeInsets.symmetric(vertical: 18),
+textStyle: const TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.w6ï¿½00@),
+shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+
+
+
+1. Text from Screenshot_2024-02-07-22-11-10-88_99c04817c0de5652397fc8b56c3b3817.jpg:
+padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
+shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+My
+); // OutlLinedButtonThemeData
+
+/* -- Dark Theme -- */
+static final darkOutLinedButtonTheme = OutlinedButtonThemeData(
+style: OutlinedButton.styleFrom(
+foregroundColor: Colors.white,
+side: const BorderSide(color: Colors.blueAccent),
+textStyle: const TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.w600@),
+padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
+shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+J
+); // OutlLinedButtonThemeData
+
+
+
+2. Text from Screenshot_2024-02-07-22-11-03-57_99c04817c0de5652397fc8b56c3b3817.jpg:
+import 'package:flutter/material.dart';
+
+/* -- Light & Dark Outlined Button Themes -- */
+class TOutlinedButtonTheme {
+TOutlLinedButtonTheme._(); //To avoid creating instances
+
+/* -- Light Theme -- */
+static final LightOutlinedButtonTheme = OutlinedButtonThemeData(
+style: OutlLinedButton.styleFrom(
+elevation: 0,
+foregroundColor: Colors.black,
+side: const BorderSide(color: Colors.blue),
+textStyle: const TextStyle(fontSize: 16, color: Colors.black, fontWeight: FontWeight.w600),
+padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
+shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+u
+); // OutlinedButtonThemeData
+
+/* -- Dark Theme -- */
+static final darkOutlinedButtonTheme = OutlinedButtonThemeData(
+    
+
+
+
+1. Text from Screenshot_2024-02-07-22-22-40-00_99c04817c0de5652397fc8b56c3b3817.jpg:
+borderSide: const BorderSide(width: 1, color: Colors.grey),
+ie
+enabledBorder: const OutlineInputBorder() .copyWith(
+borderRadius: BorderRadius.circular(14),
+borderSide: const BorderSide(width: 1, color: Colors.grey),
+ds
+focusedBorder: const OutlineInputBorder() .copyWith(
+borderRadius: BorderRadius.circular(14),
+borderSide: const BorderSide(width: 1, color: Colors.white),
+J;
+errorBorder: const OutLineInputBorder() .copywitnt
+borderRadius: BorderRadius.circular(14),
+5 borderSide: const BorderSide(width: 1, color: Colors.red),
+focusedErrorBorder: const OutlineInputBorder() .copyWith(
+borderRadius: BorderRadius.circular(14),
+borderSide: const BorderSide(width: 2, color: Colors.orange),
+),
+); // InputDecorationTheme
+
+
+
+2. Text from Screenshot_2024-02-07-22-22-07-06_99c04817c0de5652397fc8b56c3b3817.jpg:
+);
+enabledBorder: const OutlineInputBorder() .copyWith(
+
+borderRadius: BorderRadius.circular(14),
+borderSide: const BorderSide(width: 1, color: Colors.grey),
+Me
+focusedBorder:const OutlineInputBorder() .copyWith(
+borderRadius: BorderRadius.circular(14),
+borderSide: const BorderSide(width: 1, color: Colors.black12),
+if
+errorBorder: const OutlineInputBorder() .copyWith(
+borderRadius: BorderRadius.circular(14) ,
+borderSide: const BorderSide(width: 1, color: Colors.red),
+ye
+focusedErrorBorder: const OutLineInputBorder() .copyWith(
+borderRadius: BorderRadius.circular(14),
+borderSide: const BorderSide(width: 2, color: Colors.orange),
+
+Js
+
+); // InputDecorationTheme
+
+static InputDecorationTheme darkInputDecorationTheme = InputDecorationTheme(
+
+erranMay!l inec: 9%
+
+
+
+3. Text from Screenshot_2024-02-07-22-17-27-54_99c04817c0de5652397fc8b56c3b3817.jpg:
+import 'package:flutter/material.dart';
+e
+
+class TTextFormFieldTheme {
+TTextFormFieldTheme._();
+
+static InputDecorationTheme LightInputDecorationTheme = InputDecorationTheme(
+
+errorMaxLines: 3,
+prefixIconColor: Colors.grey,
+suffixIconColor: Colors.grey,
+// constraints: const BoxConstraints.expand(height: 14.inputFieldHeight),
+labelStyle: const TextStyle().copyWith(fontSize: 14, color: Colors.black),
+hintStyle: const TextStyle().copyWith(fontSize: 14, color: Colors.black),
+errorStyle: const TextStyle().copyWith(fontStyle: FontStyle.normal),
+floatingLabelStyle: const TextStyle().copyWith(color: Colors.block.withOpacity(0.8)),
+border: const OutlineInputBorder() .copyWith(
+
+borderRadius: BorderRadius.circular(14),
+
+borderSide: const BorderSide(width: 1, color: Colors.grey),
+Ds
+enabledBorder: const OutlineInputBorder() .copyWith(
+
+borderRadius: BorderRadius.circular(14),
+
+borderSide: const BorderSide(width: 1, color: Colors.grey),
+
+
+
+
+1. Text from Screenshot_2024-02-07-22-22-40-00_99c04817c0de5652397fc8b56c3b3817.jpg:
+borderSide: const BorderSide(width: 1, color: Colors.grey),
+ie
+enabledBorder: const OutlineInputBorder() .copyWith(
+borderRadius: BorderRadius.circular(14),
+borderSide: const BorderSide(width: 1, color: Colors.grey),
+ds
+focusedBorder: const OutlineInputBorder() .copyWith(
+borderRadius: BorderRadius.circular(14),
+borderSide: const BorderSide(width: 1, color: Colors.white),
+J;
+errorBorder: const OutLineInputBorder() .copywitnt
+borderRadius: BorderRadius.circular(14),
+5 borderSide: const BorderSide(width: 1, color: Colors.red),
+focusedErrorBorder: const OutlineInputBorder() .copyWith(
+borderRadius: BorderRadius.circular(14),
+borderSide: const BorderSide(width: 2, color: Colors.orange),
+),
+); // InputDecorationTheme
+
+
+
+2. Text from Screenshot_2024-02-07-22-22-07-06_99c04817c0de5652397fc8b56c3b3817.jpg:
+);
+enabledBorder: const OutlineInputBorder() .copyWith(
+
+borderRadius: BorderRadius.circular(14),
+borderSide: const BorderSide(width: 1, color: Colors.grey),
+Me
+focusedBorder:const OutlineInputBorder() .copyWith(
+borderRadius: BorderRadius.circular(14),
+borderSide: const BorderSide(width: 1, color: Colors.black12),
+if
+errorBorder: const OutlineInputBorder() .copyWith(
+borderRadius: BorderRadius.circular(14) ,
+borderSide: const BorderSide(width: 1, color: Colors.red),
+ye
+focusedErrorBorder: const OutLineInputBorder() .copyWith(
+borderRadius: BorderRadius.circular(14),
+borderSide: const BorderSide(width: 2, color: Colors.orange),
+
+Js
+
+); // InputDecorationTheme
+
+static InputDecorationTheme darkInputDecorationTheme = InputDecorationTheme(
+
+erranMay!l inec: 9%
+
+
+
+3. Text from Screenshot_2024-02-07-22-17-27-54_99c04817c0de5652397fc8b56c3b3817.jpg:
+import 'package:flutter/material.dart';
+e
+
+class TTextFormFieldTheme {
+TTextFormFieldTheme._();
+
+static InputDecorationTheme LightInputDecorationTheme = InputDecorationTheme(
+
+errorMaxLines: 3,
+prefixIconColor: Colors.grey,
+suffixIconColor: Colors.grey,
+// constraints: const BoxConstraints.expand(height: 14.inputFieldHeight),
+labelStyle: const TextStyle().copyWith(fontSize: 14, color: Colors.black),
+hintStyle: const TextStyle().copyWith(fontSize: 14, color: Colors.black),
+errorStyle: const TextStyle().copyWith(fontStyle: FontStyle.normal),
+floatingLabelStyle: const TextStyle().copyWith(color: Colors.block.withOpacity(0.8)),
+border: const OutlineInputBorder() .copyWith(
+
+borderRadius: BorderRadius.circular(14),
+
+borderSide: const BorderSide(width: 1, color: Colors.grey),
+Ds
+enabledBorder: const OutlineInputBorder() .copyWith(
+
+borderRadius: BorderRadius.circular(14),
+
+borderSide: const BorderSide(width: 1, color: Colors.grey),
+
+
+
+
+1. Text from Screenshot_2024-02-07-22-31-33-53_99c04817c0de5652397fc8b56c3b3817.jpg:
+floatingLabelStyle: const TextStyle().copyWith(color: Colors.white.withOpacity(9.8)),
+border: const OutlineInputBorder() .copyWith(
+borderRadius: BorderRadius.circular(14),
+borderSide: const BorderSide(width: 1, color: Colors.grey),
+a
+enabledBorder: const OutlineInputBorder() .copyWith(
+borderRadius: BorderRadius.circular(14),
+borderSide: const BorderSide(width: 1, color: Colors.grey),
+D3
+focusedBorder: const OutlineInputBorder() .copyWith(
+borderRadius: BorderRadius.circular(14),
+borderSide: const BorderSide(width: 1, color: Colors.white),
+is
+errorBorder: const OutLineInputBorder() .copywitht
+borderRadius: BorderRadius.circular(14),
+5 borderSide: const BorderSide(width: 1, color: Colors.red),
+focusedErrorBorder: const OutlineInputBorder() .copyWith(
+borderRadius: BorderRadius.circular(14),
+borderSide: const BorderSide(width: 2, color: Colors.orange),
+oy
+); // InputDecorationTheme
+
+
+
+2. Text from Screenshot_2024-02-07-22-31-25-15_99c04817c0de5652397fc8b56c3b3817.jpg:
+Fe FE SPM EMSS SAUTE
+
+static InputDecorationTheme darkInputDecorationTheme = InputDecorationTheme(
+errorMaxLines: 2,
+prefixIconColor: Colors.grey,
+suffixIconColor: Colors.grey,
+// constraints: const BoxConstraints.expand(height: 14.inputFieldHeight),
+labelStyle: const TextStyle().copyWith(fontSize: 14, color: Colors.white),
+hintStyle: const TextStyle().copyWith(fontSize: 14, color: Colors.white),
+floatingLabelStyle: const TextStyle().copyWith(color: Colors.white.withOpacity(ï¿½.8)),
+border: const OutlineInputBorder() .copyWith(
+borderRadius: BorderRadius.circular(14),
+borderSide: const BorderSide(width: 1, color: Colors.grey),
+2
+enabledBorder: const OutlineInputBorder() .copyWith(
+borderRadius: BorderRadius.circular(14),
+borderSide: const BorderSide(width: 1, color: Colors.grey),
+a
+focusedBorder: const OutlineInputBorder() .copyWith(
+borderRadius: BorderRadius.circular(14),
+borderSide: const BorderSide(width: 1, color: Colors.white),
+D5
+errorBorder: const OutLineInputBorder() .copywithnt
+borderRadius: BorderRadius.circular(14),
+
+
+    
+1. Text from Screenshot from 2024-07-18 19-05-29.png:
+def main_combined():
+# Initialize image generation components
+import_custom_nodes()
+
+with torch.inference_mode():
+emptylatentimage = EmptyLatentImage()
+emptylatentimage_5 = emptylatentimage.generate(width=512, height=512, batch_size=1)
+
+checkpointloadersimple = CheckpointLoaderSimple()
+checkpointloadersimple_20 = checkpointloadersimple.load_checkpoint(ckpt_name="re.safetensors")
+
+cliptextencode = CLIPTextEncode()
+
+ksamplerselect = NODE_CLASS_MAPPINGS[ “KSamplerSelect"]()
+
+ksamplerselect 14 = ksamplerselect.get sampler(sampler name="dompp 2m")
+cliptextencode = CLIPTextEncode()
+
+ksamplerselect = NODE_CLASS _MAPPINGS[ "KSamplerSelect"]()
+ksamplerselect_14 = ksamplerselect.get_sampler(sampler_name="dpmpp_2m")
+
+sdturboscheduler = NODE_CLASS_MAPPINGS[ “SDTurboScheduler"]()
+samplercustom = NODE_CLASS_MAPPINGS[ “SamplerCustom"]()
+vaedecode = VAEDecode()
+
+saveimage = SaveImage()
+
+# Initialize audio transcription components
+model_size = “medium.en"
+model = WhisperModel(model_size, device="cuda", compute_type="floati16")
+
+p = pyaudio.PyAudio()
+stream = p.open(format=pyaudio.paInt16, channels=1, rate=16000, input=True, frames_per_buffer=1024)
+
+try:
+while True:
+
+
+
+
+1. Text from Screenshot from 2024-07-18 19-04-54.png:
+adef thanscribe_chunk(model, file_path):
+
+segments, info = model.transcribe(file_path, beam_size=7)
+transcription = ‘ ‘.join(segment.text for segment in segments)
+return transcription
+
+adef Peeordsehunk(p, stream, file_path, chunk_length=1):
+frames = []
+
+| for _ in range(@, int(160e0 / 1024 * chunk_length)):
+data = stream.read(1024)
+
+frames.append(data)
+
+wf = wave.open(file_path, ‘wb‘)
+
+wf.setnchannels(1)
+wf.setsampwidth(p.get_sample_size(pyaudio.paInt16) )
+wf.setframerate(16000)
+
+wf.writeframes(b' *.join(frames) )
+
+wf.close()
+
+# Initialize a deque with a maximum Length of 6@ characters
+transcription_buffer = deque(maxlen=60)
+
+def main_combined():
+# Initialize image generation components
+import_custom_nodes()
+
+with torch.inference mode():
+
+
+
+
+1. Text from Screenshot from 2024-07-18 19-04-54.png:
+adef thanscribe_chunk(model, file_path):
+
+segments, info = model.transcribe(file_path, beam_size=7)
+transcription = ‘ ‘.join(segment.text for segment in segments)
+return transcription
+
+adef Peeordsehunk(p, stream, file_path, chunk_length=1):
+frames = []
+
+| for _ in range(@, int(160e0 / 1024 * chunk_length)):
+data = stream.read(1024)
+
+frames.append(data)
+
+wf = wave.open(file_path, ‘wb‘)
+
+wf.setnchannels(1)
+wf.setsampwidth(p.get_sample_size(pyaudio.paInt16) )
+wf.setframerate(16000)
+
+wf.writeframes(b' *.join(frames) )
+
+wf.close()
+
+# Initialize a deque with a maximum Length of 6@ characters
+transcription_buffer = deque(maxlen=60)
+
+def main_combined():
+# Initialize image generation components
+import_custom_nodes()
+
+with torch.inference mode():
+
+
+
+
+1. Text from Screenshot from 2024-07-18 19-08-25.png:
+try:
+
+=) while True:
+
+# Audio transcription
+
+chunk_file = “temp_chunk.wav"
+
+record_chunk(p, stream, chunk_file)
+
+transcription = transcribe_chunk(model, chunk_file)
+print(transcription)
+
+os.remove(chunk_file)
+
+# Update the transcription buffer
+for char in transcription:
+
+transcription_buffer.append(char)
+
+# Convert the buffer back to a string
+transcription_window = ‘‘.join(transcription_buffer)
+print(transcription_window)
+
+# Image generation based on transcription
+if transcription_window.strip(): # Check if transcription is not empty
+cliptextencode_6 = cliptextencode.encode(
+text="rtrystal clear illustration of" + transcription_window,
+clip=get_value_at_index(checkpointloadersimple_ 20, 1)
+
+)
+
+for q in range(1):
+sdturboscheduler_22 = sdturboscheduler.get_sigmas(
+steps=20,
+denoise=1,
+model=get_value_at_index(checkpointloadersimple 20, ©),
+
+)
+
+samplercustom_13 = samplercustom.sample(
+add noise=True,
+
+
+
+
+1. Text from Screenshot from 2024-07-18 19-08-25.png:
+try:
+
+=) while True:
+
+# Audio transcription
+
+chunk_file = “temp_chunk.wav"
+
+record_chunk(p, stream, chunk_file)
+
+transcription = transcribe_chunk(model, chunk_file)
+print(transcription)
+
+os.remove(chunk_file)
+
+# Update the transcription buffer
+for char in transcription:
+
+transcription_buffer.append(char)
+
+# Convert the buffer back to a string
+transcription_window = ‘‘.join(transcription_buffer)
+print(transcription_window)
+
+# Image generation based on transcription
+if transcription_window.strip(): # Check if transcription is not empty
+cliptextencode_6 = cliptextencode.encode(
+text="rtrystal clear illustration of" + transcription_window,
+clip=get_value_at_index(checkpointloadersimple_ 20, 1)
+
+)
+
+for q in range(1):
+sdturboscheduler_22 = sdturboscheduler.get_sigmas(
+steps=20,
+denoise=1,
+model=get_value_at_index(checkpointloadersimple 20, ©),
+
+)
+
+samplercustom_13 = samplercustom.sample(
+add noise=True,
+
+
+
+
+1. Text from Screenshot from 2024-07-18 19-17-22.png:
+from flask import Flask, render_template, send_from_directory
+import os
+
+app = Flask(__name__)
+
+# Directory where images are stored
+IMAGE_FOLDER = "C:/Users/kris_/Python/comf/ComfyUI_windows_portable/ComfyUI/output"
+
+# Global variable to keep track of the current Latest image
+current_latest_image = None
+
+@app.route('/')
+
+Sdef index():
+
+global current_latest_image
+
+# Find the Latest image file in the IMAGE_FOLDER
+
+latest_image_ file
+latest_image_name
+
+max(image_ files, key=os.path.getmtime) if image files else None
+os.path.basename(latest_image file) if latest_image file else None
+
+# If there is a new Latest image, delete the previous one
+
+if latest_image_name and latest_image_name != current_latest_image:
+if current_latest_image:
+a try:
+
+os.remove(os.path.join(IMAGE_FOLDER, current_latest_image) )
+except OSError as e:
+print(f"Error deleting file {current_latest_image}: {e.strerror}")
+current_latest_image = latest_image_name
+
+return render_template(‘ index.html‘, latest_image_name=latest_image_name)
+
+@app.route('/images/<filename>')
+sdef image(filename):
+# Serve the image file
+
+image_files = [os.path.join(IMAGE_FOLDER, f) for f in os.listdir(IMAGE_FOLDER) if f.endswith((‘.png’,
+
+"jpg" s
+
+‘jpeg’,
+
+‘.gif'))]
+
+
+
+1. Text from Screenshot from 2024-07-18 19-17-22.png:
+from flask import Flask, render_template, send_from_directory
+import os
+
+app = Flask(__name__)
+
+# Directory where images are stored
+IMAGE_FOLDER = "C:/Users/kris_/Python/comf/ComfyUI_windows_portable/ComfyUI/output"
+
+# Global variable to keep track of the current Latest image
+current_latest_image = None
+
+@app.route('/')
+
+Sdef index():
+
+global current_latest_image
+
+# Find the Latest image file in the IMAGE_FOLDER
+
+latest_image_ file
+latest_image_name
+
+max(image_ files, key=os.path.getmtime) if image files else None
+os.path.basename(latest_image file) if latest_image file else None
+
+# If there is a new Latest image, delete the previous one
+
+if latest_image_name and latest_image_name != current_latest_image:
+if current_latest_image:
+a try:
+
+os.remove(os.path.join(IMAGE_FOLDER, current_latest_image) )
+except OSError as e:
+print(f"Error deleting file {current_latest_image}: {e.strerror}")
+current_latest_image = latest_image_name
+
+return render_template(‘ index.html‘, latest_image_name=latest_image_name)
+
+@app.route('/images/<filename>')
+sdef image(filename):
+# Serve the image file
+
+image_files = [os.path.join(IMAGE_FOLDER, f) for f in os.listdir(IMAGE_FOLDER) if f.endswith((‘.png’,
+
+"jpg" s
+
+‘jpeg’,
+
+‘.gif'))]
+
+
+
+1. Text from Screenshot from 2024-07-18 19-16-24.png:
+@app.route(‘/‘))
+
+adef index():
+
+global current_latest_image :
+# Find the Latest image file in the IMAGE_FOLDER
+
+image_files = [os.path.join(IMAGE_FOLDER, f) for f in os.listdir(IMAGE_FOLDER) if f.endswith((‘.png’, ‘.jp:
+latest_image_ file = max(image_files, key=os.path.getmtime) if image files else None
+
+latest_image_name = os.path.basename(latest_image_file) if latest_image_ file else None
+
+v
+
+# If there is a new Latest image, delete the previous one
+
+if latest_image_name and latest_image_name != current_latest_image:
+if current_latest_image:
+A try:
+
+os.remove(os.path.join(IMAGE_FOLDER, current_latest_image) )
+except OSError as e:
+print(f"Error deleting file {current_latest_image}: {e.strerror}")
+current_latest_image = latest_image_name
+
+return render_template(‘index.html', latest_image_name=latest_image_name)
+
+@app.route('/images/<filename>')
+
+adef image(filename):
+
+# Serve the image file
+
+return send_from_directory(IMAGE_FOLDER, filename)
+
+if —name__ == ‘_ main_'‘:
+app.run(debug=True)
+
+
+
+
+1. Text from Screenshot from 2024-07-18 19-16-24.png:
+@app.route(‘/‘))
+
+adef index():
+
+global current_latest_image :
+# Find the Latest image file in the IMAGE_FOLDER
+
+image_files = [os.path.join(IMAGE_FOLDER, f) for f in os.listdir(IMAGE_FOLDER) if f.endswith((‘.png’, ‘.jp:
+latest_image_ file = max(image_files, key=os.path.getmtime) if image files else None
+
+latest_image_name = os.path.basename(latest_image_file) if latest_image_ file else None
+
+v
+
+# If there is a new Latest image, delete the previous one
+
+if latest_image_name and latest_image_name != current_latest_image:
+if current_latest_image:
+A try:
+
+os.remove(os.path.join(IMAGE_FOLDER, current_latest_image) )
+except OSError as e:
+print(f"Error deleting file {current_latest_image}: {e.strerror}")
+current_latest_image = latest_image_name
+
+return render_template(‘index.html', latest_image_name=latest_image_name)
+
+@app.route('/images/<filename>')
+
+adef image(filename):
+
+# Serve the image file
+
+return send_from_directory(IMAGE_FOLDER, filename)
+
+if —name__ == ‘_ main_'‘:
+app.run(debug=True)
+
+
+
+
+1. Text from Screenshot from 2024-07-18 19-10-27.png:
+i
+
+samplercustom_13 = samplercustom.sample(
+add_noise=True,
+noise_seed=random.randint(1, 2**64),
+cfg=1,
+model=get_value_at_index(checkpointloadersimple_20, @),
+positive=get_value_at_index(cliptextencode 6, @),
+negative="", # Replace None with an empty string or a valid condition
+sampler=get_value_at_index(ksamplerselect_14, 9),
+sigmas=get_value_at_index(sdturboscheduler_22, 9),
+latent_image=get_value_at_index(emptylatentimage_5, @),
+
+)
+vaedecode_8 = vaedecode.decode(
+samples=get_value_at_index(samplercustom_13, @),
+vae=get_value_at_index(checkpointloadersimple_ 20, 2),
+)
+
+i saveimage_27 = saveimage.save_images(
+filename_prefix="Img_" + str(q), # Ensure unique filenames
+images=get_value_at_index(vaedecode_8, 9)
+
+)
+except KeyboardInterrupt:
+print("Stopping...")
+finally:
+stream.stop_stream()
+stream.close()
+p.terminate()
+if _ name__ == "__main_":
+
+main combined()
+
+
+
+
+1. Text from Screenshot from 2024-07-18 19-18-08.png:
+<!DOCTYPE html1>
+<html lang="en">
+=<head>
+<meta charset="UTF-8">
+<title>All About AI</title>
+<style>
+/* Set the background color of the body to black */
+body {
+background-color: black;
+color: green; /* Set text color to green for better contrast */
+margin: 0;
+padding: 9;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 10@vh; /* Use full viewport height */
+
+}
+hi {
+margin-bottom: 2@px;
+}
+img {
+max-width: 90%; /* Adjust as needed */
+max-height: 8@vh; /* Adjust as needed */
+border: 2px solid white; /* Optional: adds a white border around the image */
+}
+</style>
+<script> i
+
+// Refresh the page every 500 milliseconds
+setTimeout (function(){
+window. location.reload(1);
+}, 500);
+</script>
+</head>
+<body>
+
+
+
+
+1. Text from Screenshot from 2024-07-18 19-18-08.png:
+<!DOCTYPE html1>
+<html lang="en">
+=<head>
+<meta charset="UTF-8">
+<title>All About AI</title>
+<style>
+/* Set the background color of the body to black */
+body {
+background-color: black;
+color: green; /* Set text color to green for better contrast */
+margin: 0;
+padding: 9;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 10@vh; /* Use full viewport height */
+
+}
+hi {
+margin-bottom: 2@px;
+}
+img {
+max-width: 90%; /* Adjust as needed */
+max-height: 8@vh; /* Adjust as needed */
+border: 2px solid white; /* Optional: adds a white border around the image */
+}
+</style>
+<script> i
+
+// Refresh the page every 500 milliseconds
+setTimeout (function(){
+window. location.reload(1);
+}, 500);
+</script>
+</head>
+<body>
+
+
+
+
+1. Text from Screenshot from 2024-07-18 19-18-36.png:
+}
+
+h1 {
+margin-bottom: 2@px;
+}
+img {
+max-width: 90%; /* Adjust as needed */
+max-height: 8@vh; /* Adjust as needed */
+border: 2px solid white; /* Optional: adds a white border around the image */
+}
+</style>
+By <script>
+] // Refresh the page every 500 milliseconds
+setTimeout (function(){
+window. location.reload(1) ;
+}, 500);
+</script> i
+</head>
+<body>
+<div>
+
+<h1>All About AI</h1>
+{% if latest_image_name %}
+<img src="{{ url_for('image', filename=latest_image_name) }}" alt="Latest Image">
+{% else %}
+<p>No images available.</p>
+{% endif %}
+</div>
+</body>
+
+
+
+
+1. Text from Screenshot from 2024-07-18 19-18-36.png:
+}
+
+h1 {
+margin-bottom: 2@px;
+}
+img {
+max-width: 90%; /* Adjust as needed */
+max-height: 8@vh; /* Adjust as needed */
+border: 2px solid white; /* Optional: adds a white border around the image */
+}
+</style>
+By <script>
+] // Refresh the page every 500 milliseconds
+setTimeout (function(){
+window. location.reload(1) ;
+}, 500);
+</script> i
+</head>
+<body>
+<div>
+
+<h1>All About AI</h1>
+{% if latest_image_name %}
+<img src="{{ url_for('image', filename=latest_image_name) }}" alt="Latest Image">
+{% else %}
+<p>No images available.</p>
+{% endif %}
+</div>
+</body>
+
+
+
